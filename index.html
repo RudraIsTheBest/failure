@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDqhvZizyY1P1GF1JO6B02SThLXuf5gzPc",
+    authDomain: "car-is-lambo.firebaseapp.com",
+    databaseURL: "https://car-is-lambo-default-rtdb.firebaseio.com",
+    projectId: "car-is-lambo",
+    storageBucket: "car-is-lambo.appspot.com",
+    messagingSenderId: "362293696791",
+    appId: "1:362293696791:web:d52bf2042f6e1e68b8ff52"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
